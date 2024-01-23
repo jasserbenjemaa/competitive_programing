@@ -5,7 +5,7 @@ using namespace std;
 long long mod=10000000;
 
 long solve(){
-  long long arr[3]={mod,mod,mod};
+  long arr[3]={mod,mod,mod};
   string bits;
   int k,n;
   cin >> k;
