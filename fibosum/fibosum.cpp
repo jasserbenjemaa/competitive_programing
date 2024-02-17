@@ -65,7 +65,7 @@ int32_t main()
 	while (t--) {
 		int n, m;
 		cin >> n >> m;
-		cout << (Fibosum(m) - Fibosum(n - 1) + mod) % mod << '\n';
+		cout << (Fibosum(m) - Fibosum(n - 1) + mod) % mod << endl;
 	}
 
 	return 0;
