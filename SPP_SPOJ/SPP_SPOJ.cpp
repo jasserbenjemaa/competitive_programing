@@ -5,7 +5,7 @@
 #define ll long long int
 using namespace std;
 
-const int MAX_SIZE = 18;
+const int MAX_SIZE = 17;
 ll mod;
 
 struct Mat {
