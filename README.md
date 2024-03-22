@@ -1,3 +1,3 @@
-# Coding-Journey-Codeforces
-Welcome to my Codeforces Solutions Repository! 🚀
+# Coding-Journey
+Welcome to my Repository! 🚀
 Solutions available in C++
