@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 #include <vector>
-//#include <chrono>
 #define int long long int
 
 using namespace std;
@@ -55,10 +54,5 @@ int32_t main()
     cout << c << endl;
   }
 
-  /*#ifndef ONLINE_JUDGE
-  auto end_time = chrono::high_resolution_clock::now();
-  auto duration = chrono::duration_cast<chrono::milliseconds>(end_time - start_time) ;
-  cout << "\nTime: "<<duration.count()<<" milliseconds"<<endl;
-  #endif*/
   return 0;
 }
