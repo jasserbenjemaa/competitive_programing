@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define M 30
+#define M 10
 int r, c;
 int dx[] = {0, -1, 0};
 int dy[] = {-1, 0, 1};
