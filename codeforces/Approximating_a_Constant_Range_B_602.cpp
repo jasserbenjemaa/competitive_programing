@@ -25,7 +25,7 @@ int main() {
       countCurr++;
     } else if (next == prev) {
       countPrev += countCurr;
-      curr = prev;
+      prev = curr;
       curr = next;
       countCurr = 1;
     } else {
