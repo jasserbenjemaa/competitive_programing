@@ -12,6 +12,7 @@ void solve(){
 int main (int argc, char *argv[]) {
   #ifndef ONLINE_JUDGE
     freopen("input.txt","r",stdin);
+    auto start_time = chrono::high_resolution_clock::now();
   #endif
   
   int t;
@@ -19,6 +20,11 @@ int main (int argc, char *argv[]) {
   while (t--) {
     solve();
   }
- 
+
+  #ifndef ONLINE_JUDGE
+  auto end_time = chrono::high_resolution_clock::now();
+  auto duration = chrono::duration_cast<chrono::milliseconds>(end_time - start_time) ;
+  cout << "Time:"<<duration.count()<<endl;
+  #endif
   return 0;
 }
